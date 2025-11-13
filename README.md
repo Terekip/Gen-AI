@@ -53,5 +53,44 @@ Ensure you have the necessary API credentials for \`byllm\` (e.g., for Gemini mo
    \`\`\`
    This will output a random password.
 5. If issues arise, check the [byLLM documentation](https://www.jac-lang.org/learn/jac-byllm/) for supported models and setup details.
-EOL
+   
+# CodeGenius AI 
+[View Assignment_2](Assignment_2)
+
+**Instant, AI-powered documentation for any GitHub repo.**
+
+**CodeGenius AI** is an intelligent documentation generator that analyzes any public GitHub repository and automatically creates a structured `documentation.md` file.  
+It reads the README, scans source files, identifies functions, and builds a clear, human-readable summary of the codebase — all in one click.
+
+---
+
+---
+
+## Features
+- **Clones & analyzes** Python/Jac repos    
+- **Smart file ranking** (LLM-powered)  
+- **Call graph diagrams** (Mermaid)  
+- **Download `.md` instantly**
+
+---
+
+## Quick Start
+
+```bash
+# 1. Clone
+git clone https://github.com/Terekip/agentic_codebase_genius.git
+cd agentic_codebase_genius
+
+# 2. Setup
+python -m venv jac_env
+source jac_env/bin/activate
+pip install -r requirements.txt
+pip install jaclang
+
+# 3. Set API key
+export GEMINI_API_KEY="your-key"
+
+# 4. Run
+jac run backend.jac        # Terminal 1
+streamlit run frontend.py  # Terminal 2
 
