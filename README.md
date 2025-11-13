@@ -93,6 +93,7 @@ export GEMINI_API_KEY="your-key"
 # 4. Run
 jac run backend.jac        # Terminal 1
 streamlit run frontend.py  # Terminal 2
+```
 
 ## Steps to generate documentation:
 - Enter a GitHub repository URL
@@ -100,4 +101,4 @@ streamlit run frontend.py  # Terminal 2
 - Wait for the spinner to complete each step
 - Download the generated documentation.md file
  ## Output Example
-Example of an output can be view here [View documentation.md](documentation.md)
+Example of an output can be view here [View documentation.md](Assignment_2/outputs/documentation.md)
